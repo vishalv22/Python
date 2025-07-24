@@ -39,8 +39,10 @@ git remote add origin http://github.com/vishalv22/python.git
 ```bash
 git add . 
 #Adds all changed to the staging area
+
 git commit -m "Intitial commit with folder structure"
 #commits the changes with a message
+
 git push -u origin main
 #pushes commits to the GitHub repo
 ```
