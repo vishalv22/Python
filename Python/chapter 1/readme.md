@@ -40,13 +40,19 @@ print(z)
 
 #Output: None
 ```
+
+<br>
+
 - We can not use python's keywords as a valid name. we can see the list of keyword by:
 ```bash
 import keyword
 print(keyword.kwlist)
 ```
+
+<br>
+
 - Rules of Variable naming: 
-    1. Variable names must start with a letter or an underscore.
+ 1. Variable names must start with a letter or an underscore.
 ```bash
 x = True     #valid
 _y = True    #valid
@@ -57,6 +63,8 @@ _y = True    #valid
 &y = False   #starts with symbol
 #Output: SyntaxError: invalid syntax
 ```
-    2. The remainder of your variable name may consist of letters, numbers and underscores
+
+2. The remainder of your variable name may consist of letters, numbers and underscores
+
 ```bash
 has_0_in_it = "still valid"
