@@ -57,6 +57,6 @@ _y = True    #valid
 &y = False   #starts with symbol
 #Output: SyntaxError: invalid syntax
 ```
-2. The remainder of your variable name may consist of letters, numbers and underscores
+    2. The remainder of your variable name may consist of letters, numbers and underscores
 ```bash
 has_0_in_it = "still valid"
