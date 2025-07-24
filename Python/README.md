@@ -1,5 +1,4 @@
 # Github and Git 
----
 
 ## 🌐Github :
 - A platform for **storing**, **sharing** and **collaborating on code**. <br>
@@ -12,3 +11,13 @@
 ## 🛠️Git :
 - A version control tool.<br>
 - Runs locally in our Computers.
+
+# Setup
+- 📦Installed git on Windows<br>
+- 🔧Configured Git (Local Identity)<br>
+- Opened git bash and ran 
+```bash
+git config --global user.name "vishalv22"
+git config --global user.email "my-email"
+```
+- This sets up my identity for all Git commits on this system.
