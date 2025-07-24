@@ -1,1 +1,2 @@
-this is chapter one
+# 📝Chapter - 1  
+## 📦Setup
