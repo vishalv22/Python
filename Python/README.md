@@ -13,9 +13,9 @@
 - Runs locally in our Computers.
 
 # 📦Setup
-- Installed git on Windows<br>
+- Installed Git on Windows<br>
 - Configured Git (Local Identity)<br>
-Opened git bash and ran :
+Opened Git bash and ran :
 ```bash
 git config --global user.name "vishalv22"
 git config --global user.email "my-email"
