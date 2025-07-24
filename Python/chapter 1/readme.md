@@ -43,7 +43,7 @@ print(z)
 
 <br>
 
-- We can *not* use **python's keywords** as a valid name. We can see the list of keyword by:
+- ❌We can *not* use **python's keywords** as a valid name. We can see the list of keyword by:
 ```bash
 import keyword
 print(keyword.kwlist)
@@ -51,7 +51,7 @@ print(keyword.kwlist)
 
 <br>
 
-- ### Rules of Variable naming: 
+- ### ✅Rules of Variable naming: 
  1. Variable names must start with a letter or an underscore.
 ```bash
 x = True     #valid
