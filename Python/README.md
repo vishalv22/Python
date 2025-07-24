@@ -7,5 +7,5 @@
 - Used by developers for teamwork and opensource projects.<br><br>
 
 <h1>🛠️Git :</h1>
-- A version control tool.
+- A version control tool.<br>
 - Runs locally in our Computers.
