@@ -64,7 +64,7 @@ _y = True    #valid
 #Output: SyntaxError: invalid syntax
 ```
 
-2. The remainder of your variable name may consist of letters, numbers and underscores
+2. The remainder of your variable name may consist of letters, numbers and underscores.
 
 ```bash
 has_0_in_it = "still valid"
@@ -72,3 +72,12 @@ has_0_in_it = "still valid"
 <br>
 
 📌When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
+<br>
+
+- You can assign multiple values to multiple variables in one line.
+```bash
+a, b, c = 1, 2, 3
+print(a, b, c)
+
+# Output: 1 2 3
+```
