@@ -1,10 +1,10 @@
 # 📝Chapter 1  
 
 ## 1.1 Creating variables and assigning values
-- python uses "=" to assign values to variables.
+- python uses "=" to assign values to **variables**.
 ```<variable name> = <value>```
 
-- Assigning values to different data types
+- Assigning values to different **data types**
 ```bash
 #Inteegr
 a=2
@@ -43,7 +43,7 @@ print(z)
 
 <br>
 
-- We can not use python's keywords as a valid name. we can see the list of keyword by:
+- We can *not* use **python's keywords** as a valid name. we can see the list of keyword by:
 ```bash
 import keyword
 print(keyword.kwlist)
