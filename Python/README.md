@@ -5,7 +5,7 @@
 - Uses **git** (version control) to **track code changes**.<br>
 - Hosts repositories (repo) for our projects.<br>
 - Feature: code storage, collaboration (pull requests), showcasing protfollios.<br><br>
-- eg: pushing my python code to github to share and back it up.<br>
+- e.g., pushing my Python code to GitHub to share it and back it up.<br>
 - Used by developers for **teamwork** and **opensource projects**.<br><br>
 
 ## 🛠️Git :
@@ -22,7 +22,7 @@ git config --global user.email "my-email"
 ```
 This sets up my identity for all Git commits on this system.
 
-- Created a local Project Folder ```C:\Users\vishal\Desktop\Codes\Python```
+- Created a local project folder at ```C:\Users\vishal\Desktop\Codes\Python```
 - Created a new public repo called **Python** <br>
 - Initialized Git Locally & Linked to GitHub
 In Git Bash, navigated to the folder:
@@ -37,13 +37,16 @@ git remote add origin http://github.com/vishalv22/python.git
 - Loged in and Done
 ## 📤First Push to GitHub
 ```bash
-git add .
+git add . 
+#Adds all changed to the staging area
 git commit -m "Intitial commit with folder structure"
+#commits the changes with a message
 git push -u origin main
+#pushes commits to the GitHub repo
 ```
 This uploads my local files to the GitHub repo.
 
-## ✏️Edited Files and Codes & Pushed Again
+## ✏️Edited Files & Pushed Again
 - used same steps
 ```bash
 git add .
