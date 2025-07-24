@@ -51,8 +51,8 @@ git commit -m "some changes"
 git push
 ```
 
-## Edited Directly on GitHub
-- Made some changes directly from GitHub website and Then pulled it locally to stay in sync: 
+## 📩Edited Directly on GitHub & Pulled
+- If I or someone did some changes directly to the GitHub repo (not locally) then we can pull it and keep everything in sync :
 ```bash
 git pull
 ```
