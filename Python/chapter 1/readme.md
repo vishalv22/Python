@@ -126,7 +126,7 @@ print(joke)
 
 #this will print a random joke.
 ```
-Built in modules contains extra functionalities. For example to get square root of a number we need to include math module.
+Built in modules (don't need to install) contains extra functionalities. For example to get square root of a number we need to include math module.
 ```bash
 import math
 print(math.sqrt(16)) # 4.0
@@ -137,3 +137,8 @@ import math
 dir (math) #this will show all the functions available in math module.
 #for example, we can use 'math.pi' to get the value of pi.
 ```
+
+## 🎯 Exercise 
+### 1. Python program to print the poem "Twinkle, Twinkle Little Star"
+### 2. Install the external module and use it to perform an operation of your interest.
+### 3. Write the python program to print the contents of a directory using the os module. Search online for the function which does that.
