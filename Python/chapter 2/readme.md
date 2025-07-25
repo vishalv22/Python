@@ -41,20 +41,23 @@ print(e)      #Output: True ,   5>4.
 ### Logical Operators:
 Truth Table of ```or``` Operator
 ```bash
-print("True or False is ", True or False)
-print("True or True is ", True or True)
-print("False or True is ", False or True)
-print("False or False is ", False or False)
+print("True or False is ", True or False)        #Output: True
+print(True or True)                              #Output: True
+print(False or True)                             #Output: True
+print(False or False)                            #Output: False
+# 🤔 If one is True, then True
 ```
 
 Truth Table of ```and``` Operator
 ```bash
-print("True or False is ", True and False)
-print("True or True is ", True and True)
-print("False or True is ", False and True)
-print("False or False is ", False and False)
+print("True and False is ", True and False)      #Output: False
+print("True and True is ", True and True)        #Output: True
+print("False and True is ", False and True)      #Output: False
+print("False and False is ", False and False)     #Output: False
+# 🤔 If one is False, then False
 ```
 
+### Not Operator
 ```bash 
-print(not(True))          #it will print false, known as 'not operator'
+print(not(True))          #Output: False
 ```
