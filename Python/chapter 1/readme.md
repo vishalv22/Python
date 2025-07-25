@@ -82,16 +82,38 @@ print(a, b, c)
 In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
 #### Some common Built-in Data Types in Python:
 ```bash
-name = "Vishal"        # str
+name = "Vishal"       # str
 age = 19              # int
 pi = 3.14             # float
 is_valid = True       # bool
-fruits = ["apple", "banana"]  # list
+fruits = ["apple", "banana"]            # list
 person = {"name": "Vishal", "age": 19}  # dict
 ```
 📌 We can check the type of any variable using :
 ```bash
 print(type(name))   # Output: <class 'str'>
+```
+### Converting between datatypes
+We can perform explicit datatype conversion.
+For example, '123' is of ```str``` type and it can be converted to integer using ```int``` function.
+```bash
+a = '123'
+b = int(a)
+```
+Converting from a float string such as '123.456' can be done using ```float``` function.
+```bash
+a = '123.456'
+b = float(a)
+c = int(a) # ValueError: invalid literal for int() with base 10: '123.456'
+d = int(b) # 123
+```
+
+We can also convert sequence or collection types
+```bash
+a = 'hello'
+list(a)  # ['h', 'e', 'l', 'l', 'o']
+set(a)   # {'o', 'e', 'l', 'h'}
+tuple(a) # ('h', 'e', 'l', 'l', 'o')
 ```
 
 ## 1.3 Modules in Python:

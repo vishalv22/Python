@@ -57,7 +57,11 @@ print(False and False)                           #Output: False
 # 🤔 If one is False, then False
 ```
 
-### Not Operator
+#### Not Operator
 ```bash 
 print(not(True))          #Output: False
 ```
+
+## 2.2 User-Input
+
+```a = input()```
