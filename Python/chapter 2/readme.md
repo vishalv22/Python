@@ -38,3 +38,23 @@ print(d)      #OutPut: False ,  5 is not < 4.
 e = 5 >= 4
 print(e)      #Output: True ,   5>4.
 ```
+### Logical Operators:
+Truth Table of ```or``` Operator
+```bash
+print("True or False is ", True or False)
+print("True or True is ", True or True)
+print("False or True is ", False or True)
+print("False or False is ", False or False)
+```
+
+Truth Table of ```and``` Operator
+```bash
+print("True or False is ", True and False)
+print("True or True is ", True and True)
+print("False or True is ", False and True)
+print("False or False is ", False and False)
+```
+
+```bash 
+print(not(True))          #it will print false, known as 'not operator'
+```
