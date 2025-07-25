@@ -57,9 +57,10 @@ print(False and False)                           #Output: False
 # 🤔 If one is False, then False
 ```
 
-#### Not Operator
+Not Operator
 ```bash 
 print(not(True))          #Output: False
+print(not(False))         #Output: True
 ```
 
 ## 2.2 User-Input
@@ -74,4 +75,12 @@ name = input("What is your name? ")
 #Output: What is your name? Vishal
 print(name)
 #Output: Vishal
+```
+
+📌 Note that the input is always of type ```str```, which is important if you want the user to enter numbers. Therefore, you need to convert the ```str``` before trying to use it as a number:
+```bash
+a = int(input("Enter the first Number: "))          # int(), now it will take input from user as a Number. 
+b = int(input("Enter the second Number: "))
+
+print("The sum of both Numbers is: ", a + b)
 ```
