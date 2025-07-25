@@ -7,12 +7,12 @@ b = 8
 print(a+b)           #Output: 14
 ```
 Similarly for, <br>
-Addition ```+``` ,
-Subtraction ```-```
-Multiplication ```*```
-Exponentiation ```**```
-Division ```/```
-Floor Division ```//```
+Addition ```+``` , 
+Subtraction ```-```, 
+Multiplication ```*```, 
+Exponentiation ```**```, 
+Division ```/```, 
+Floor Division ```//```, 
 Modulus ```%```
 
 ### Assignment Operators:
