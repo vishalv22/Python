@@ -51,12 +51,12 @@ print(keyword.kwlist)
 
 <br>
 
-- ### ✅Rules of Variable naming: 
-1. A variable name can contain alphabets, digits, and underscores.
-2. A variable name can only start with an alphabet and underscores.
-3. A variable name can not **start with the digit**.
-4. **NO** white **SPACE** is allowed to be used inside a variable name. <br>
-
+### ✅Rules of Variable naming: 
+- A variable name can contain alphabets, digits, and underscores.
+- A variable name can only start with an alphabet and underscores.
+- A variable name can not **start with the digit**.
+- **NO** white **SPACE** is allowed to be used inside a variable name. <br>
+<hr>
 📌 When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
 <br>
 
