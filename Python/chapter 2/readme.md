@@ -6,14 +6,14 @@ a = 6
 b = 8
 print(a+b)           #Output: 14
 ```
-similarly for, 
-Addition ```+```
-Subtraction ```-```
-Multiplication ```*```
-Exponentiation ```**```
-Division ```/```
-Floor Division ```//```
-Modulus ```%```
+similarly for, <br>
+Addition ```+``` <br>
+Subtraction ```-``` <br>
+Multiplication ```*``` <br>
+Exponentiation ```**``` <br>
+Division ```/``` <br>
+Floor Division ```//``` <br>
+Modulus ```%``` <br>
 
 ### Assignment Operators:
 ```bash
