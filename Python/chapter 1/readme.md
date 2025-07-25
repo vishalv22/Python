@@ -94,7 +94,7 @@ person = {"name": "Vishal", "age": 19}  # dict
 print(type(name))   # Output: <class 'str'>
 ```
 ### Converting between datatypes
-We can perform explicit datatype conversion.
+We can perform explicit datatype conversion.<br>
 For example, '123' is of ```str``` type and it can be converted to integer using ```int``` function.
 ```bash
 a = '123'

@@ -63,5 +63,15 @@ print(not(True))          #Output: False
 ```
 
 ## 2.2 User-Input
-
-```a = input()```
+To get input from the user, we use the input function
+```bash
+name = input("What is your name? ")
+#Output: What is your name? 
+```
+If user types 'Vishal' and hit enter, the variable ```name``` will be assigned to the string ```"Vishal"```
+```bash
+name = input("What is your name? ")
+#Output: What is your name? Vishal
+print(name)
+#Output: Vishal
+```
