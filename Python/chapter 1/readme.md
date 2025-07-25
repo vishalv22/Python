@@ -52,24 +52,10 @@ print(keyword.kwlist)
 <br>
 
 - ### ✅Rules of Variable naming: 
- 1. Variable names must start with a letter or an underscore.
-```bash
-x = True     #valid
-_y = True    #valid
-    
-9x = False   #invalid, starts with numeral
-#Output: SyntaxError: invalid syntax 
-
-&y = False   #starts with symbol
-#Output: SyntaxError: invalid syntax
-```
-
-2. The remainder of your variable name may consist of letters, numbers and underscores.
-
-```bash
-has_0_in_it = "still valid"
-```
-<br>
+1. A variable name can contain alphabets, digits, and underscores.
+2. A variable name can only start with an alphabet and underscores.
+3. A variable name CANNOT START WITH THE DIGIT.
+4. NO white SPACE is allowed to be used inside a variable name. <br>
 
 📌 When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
 <br>
