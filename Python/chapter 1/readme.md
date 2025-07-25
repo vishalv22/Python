@@ -99,44 +99,48 @@ In Python, a datatype is the classification or category of data that tells the i
 #### Common Built-in Data Types in Python:
 - Numeric Types
 ```bash
-int – Integer (e.g., 5, -42)
-
-float – Floating-point number (e.g., 3.14, -0.01)
-
-complex – Complex number (e.g., 3 + 5j)
+# int – Integer (e.g., 5, -42)
+x = 10
+# float – Floating-point number (e.g., 3.14, -0.01)
+y = 3.14
+# complex – Complex number (e.g., 3 + 5j)
+z = 3 + 4j
 ```
 
 - Text Type
 ```bash
-str – String (e.g., 'hello', "Python")
+# str – String (e.g., 'hello', "Python")
+name = 'Vishal'
 ```
 
 - Boolean Type
 ```bash
-bool – Boolean values (True or False)
+# bool – Boolean values (True or False)
+is_valid = True 
 ```
 
 - Sequence Types
 ```bash
-list – Ordered, changeable (e.g., [1, 2, 3])
+# list – Ordered, changeable (e.g., [1, 2, 3])
+fruits = ["apple", "banana"]
+# tuple – Ordered, unchangeable (e.g., (1, 2, 3))
 
-tuple – Ordered, unchangeable (e.g., (1, 2, 3))
-
-range – Sequence of numbers (e.g., range(5))
+# range – Sequence of numbers (e.g., range(5))
 ```
 
 - Mapping Type
 ```bash
-dict – Key-value pairs (e.g., {"name": "che", "age": 20})
+# dict – Key-value pairs (e.g., {"name": "vis", "age": 20})
+person = {"name": "Vishal", "age": 20}
 ```
 - Set Types
 ```bash
-set – Unordered, unique values (e.g., {1, 2, 3})
+# set – Unordered, unique values (e.g., {1, 2, 3})
 
-frozenset – Immutable set
+# frozenset – Immutable set
 ```
 
 - None Type
 ```bash
-NoneType – Represents the absence of a value (None)
+# NoneType – Represents the absence of a value (None)
 ```
