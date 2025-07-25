@@ -94,3 +94,6 @@ b = 2               # b now refers to another int object, one with a value of 2
 print(a, b, c)
 # Output: 1 2 1     # so output is as expected
 ```
+- ### DataType: 
+In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
+#### Common Built-in Data Types in Python:
