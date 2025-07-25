@@ -126,3 +126,14 @@ print(joke)
 
 #this will print a random joke.
 ```
+Built in modules contains extra functionalities. For example to get square root of a number we need to include math module.
+```bash
+import math
+print(math.sqrt(16)) # 4.0
+```
+To know all the functions in a module we can assign the functions list to a variable, and then print the variable.
+```bash
+import math
+dir (math) #this will show all the functions available in math module.
+#for example, we can use 'math.pi' to get the value of pi.
+```
