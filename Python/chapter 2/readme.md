@@ -30,11 +30,11 @@ print(b)
 ### Comparision Operators:
 ```bash
 a = 7 == 7
-print(a)      #Output: True, 7 = 7.
+print(a)      #Output: True ,   7 = 7.
 
 d = 5 < 4
-print(d)     #OutPut: False, 5 is not < 4.
+print(d)      #OutPut: False ,  5 is not < 4.
 
 e = 5 >= 4
-print(e)      #Output: True, 5>4.
+print(e)      #Output: True ,   5>4.
 ```
