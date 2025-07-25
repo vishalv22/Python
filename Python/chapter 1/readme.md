@@ -40,15 +40,6 @@ print(z)
 
 #Output: None
 ```
-
-<br>
-
-- ❌We can *not* use **python's keywords** as a valid name. We can see the list of keyword by:
-```bash
-import keyword
-print(keyword.kwlist)
-```
-
 <br>
 
 ### ✅Rules of Variable naming: 
@@ -56,6 +47,12 @@ print(keyword.kwlist)
 - A variable name can only start with an alphabet and underscores.
 - A variable name can not **start with the digit**.
 - **NO** white **SPACE** is allowed to be used inside a variable name. <br>
+
+- ❌We can *not* use **python's keywords** as a valid name. We can see the list of keyword by:
+```bash
+import keyword
+print(keyword.kwlist)
+```
 <hr>
 
 📌 When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
