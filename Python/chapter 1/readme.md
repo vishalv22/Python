@@ -109,3 +109,14 @@ person = {"name": "Alice", "age": 25}  # dict
 ```bash
 print(type(name))   # Output: <class 'str'>
 ```
+
+### Modules in Python:
+Modules allow us to avoid writing everything from scratch by reusing existing, reliable code.
+first install module using terminal, ```bash pip install pyjokes``` and then import it.
+```bash
+import pyjokes
+joke = pyjokes.get_joke()
+print(joke)
+
+#this will print a random joke.
+```
