@@ -84,3 +84,13 @@ b = int(input("Enter the second Number: "))
 
 print("The sum of both Numbers is: ", a + b)
 ```
+another example:
+```bash
+x = input("Write a number:")
+# Out: Write a number: 10
+x / 2
+# Out: TypeError: unsupported operand type(s) for /: 'str' and 'int'
+float(x) / 2
+# Out: 5.0
+
+```
