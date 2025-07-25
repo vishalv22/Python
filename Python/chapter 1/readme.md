@@ -94,6 +94,49 @@ b = 2               # b now refers to another int object, one with a value of 2
 print(a, b, c)
 # Output: 1 2 1     # so output is as expected
 ```
-- ### DataType: 
+### DataType: 
 In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
 #### Common Built-in Data Types in Python:
+- Numeric Types
+```bash
+int – Integer (e.g., 5, -42)
+
+float – Floating-point number (e.g., 3.14, -0.01)
+
+complex – Complex number (e.g., 3 + 5j)
+```
+
+- Text Type
+```bash
+str – String (e.g., 'hello', "Python")
+```
+
+- Boolean Type
+```bash
+bool – Boolean values (True or False)
+```
+
+- Sequence Types
+```bash
+list – Ordered, changeable (e.g., [1, 2, 3])
+
+tuple – Ordered, unchangeable (e.g., (1, 2, 3))
+
+range – Sequence of numbers (e.g., range(5))
+```
+
+- Mapping Type
+```bash
+dict – Key-value pairs (e.g., {"name": "che", "age": 20})
+```
+- Set Types
+```bash
+set – Unordered, unique values (e.g., {1, 2, 3})
+
+frozenset – Immutable set
+```
+
+- None Type
+```bash
+NoneType – Represents the absence of a value (None)
+```
