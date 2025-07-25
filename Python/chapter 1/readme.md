@@ -57,6 +57,7 @@ print(keyword.kwlist)
 - A variable name can not **start with the digit**.
 - **NO** white **SPACE** is allowed to be used inside a variable name. <br>
 <hr>
+
 📌 When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
 <br>
 
