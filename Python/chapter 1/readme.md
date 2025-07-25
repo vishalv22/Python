@@ -82,12 +82,12 @@ print(a, b, c)
 In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
 #### Some common Built-in Data Types in Python:
 ```bash
-name = "Alice"        # str
-age = 25              # int
+name = "Vishal"        # str
+age = 19              # int
 pi = 3.14             # float
 is_valid = True       # bool
 fruits = ["apple", "banana"]  # list
-person = {"name": "Alice", "age": 25}  # dict
+person = {"name": "Vishal", "age": 19}  # dict
 ```
 📌 We can check the type of any variable using :
 ```bash
