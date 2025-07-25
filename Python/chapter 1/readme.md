@@ -71,7 +71,7 @@ has_0_in_it = "still valid"
 ```
 <br>
 
-📌When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
+📌 When we use = to do an assignment operation, what's on the left of = is a **name** for the **object** on the right. Finally, what = does is assign the **reference** of the object on the right to the **name** on the left.
 <br>
 
 - You can assign multiple values to multiple variables in one line.
@@ -104,4 +104,8 @@ pi = 3.14             # float
 is_valid = True       # bool
 fruits = ["apple", "banana"]  # list
 person = {"name": "Alice", "age": 25}  # dict
+```
+📌 We can check the type of any variable using :
+```bash
+print(type(name))   # Output: <class 'str'>
 ```
