@@ -94,7 +94,7 @@ b = 2               # b now refers to another int object, one with a value of 2
 print(a, b, c)
 # Output: 1 2 1     # so output is as expected
 ```
-### DataType: 
+## 1.2 DataType: 
 In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
 #### Some common Built-in Data Types in Python:
 ```bash
@@ -110,9 +110,9 @@ person = {"name": "Alice", "age": 25}  # dict
 print(type(name))   # Output: <class 'str'>
 ```
 
-### Modules in Python:
+## 1.3 Modules in Python:
 Modules allow us to avoid writing everything from scratch by reusing existing, reliable code.
-first install module using terminal, ```bash pip install pyjokes``` and then import it.
+first install module using terminal, ```pip install pyjokes``` and then import it.
 ```bash
 import pyjokes
 joke = pyjokes.get_joke()
