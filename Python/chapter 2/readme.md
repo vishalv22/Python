@@ -77,7 +77,7 @@ print(name)
 #Output: Vishal
 ```
 
-📌 Note that the input is always of type ```str```, which is important if you want the user to enter numbers. Therefore, you need to convert the ```str``` before trying to use it as a number:
+📌 Note that the input is always of type ```str```, which is important if we want the user to enter numbers. Therefore, we need to convert the ```str``` before trying to use it as a number:
 ```bash
 a = int(input("Enter the first Number: "))          # int(), now it will take input from user as a Number. 
 b = int(input("Enter the second Number: "))
