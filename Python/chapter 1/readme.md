@@ -96,51 +96,12 @@ print(a, b, c)
 ```
 ### DataType: 
 In Python, a datatype is the classification or category of data that tells the interpreter what kind of value a variable holds and what operations can be performed on it.
-#### Common Built-in Data Types in Python:
-- Numeric Types
+#### Some common Built-in Data Types in Python:
 ```bash
-# int – Integer (e.g., 5, -42)
-x = 10
-# float – Floating-point number (e.g., 3.14, -0.01)
-y = 3.14
-# complex – Complex number (e.g., 3 + 5j)
-z = 3 + 4j
-```
-
-- Text Type
-```bash
-# str – String (e.g., 'hello', "Python")
-name = 'Vishal'
-```
-
-- Boolean Type
-```bash
-# bool – Boolean values (True or False)
-is_valid = True 
-```
-
-- Sequence Types
-```bash
-# list – Ordered, changeable (e.g., [1, 2, 3])
-fruits = ["apple", "banana"]
-# tuple – Ordered, unchangeable (e.g., (1, 2, 3))
-
-# range – Sequence of numbers (e.g., range(5))
-```
-
-- Mapping Type
-```bash
-# dict – Key-value pairs (e.g., {"name": "vis", "age": 20})
-person = {"name": "Vishal", "age": 20}
-```
-- Set Types
-```bash
-# set – Unordered, unique values (e.g., {1, 2, 3})
-
-# frozenset – Immutable set
-```
-
-- None Type
-```bash
-# NoneType – Represents the absence of a value (None)
+name = "Alice"        # str
+age = 25              # int
+pi = 3.14             # float
+is_valid = True       # bool
+fruits = ["apple", "banana"]  # list
+person = {"name": "Alice", "age": 25}  # dict
 ```
