@@ -41,7 +41,7 @@ print(e)      #Output: True ,   5>4.
 ### Logical Operators:
 Truth Table of ```or``` Operator
 ```bash
-print("True or False is ", True or False)        #Output: True
+print("True or False is ", True or False)        #Output: True or False is True
 print(True or True)                              #Output: True
 print(False or True)                             #Output: True
 print(False or False)                            #Output: False
@@ -50,10 +50,10 @@ print(False or False)                            #Output: False
 
 Truth Table of ```and``` Operator
 ```bash
-print("True and False is ", True and False)      #Output: False
-print("True and True is ", True and True)        #Output: True
-print("False and True is ", False and True)      #Output: False
-print("False and False is ", False and False)     #Output: False
+print("True and False is ", True and False)      #Output: True and False is False
+print(True and True)                             #Output: True
+print(False and True)                            #Output: False
+print(False and False)                           #Output: False
 # 🤔 If one is False, then False
 ```
 
