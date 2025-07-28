@@ -1,6 +1,6 @@
 # Git and GitHub 
 
-## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="25"> GitHub
+## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="30"> GitHub
 
 - A platform for **storing**, **sharing** and **collaborating on code**. <br>
 - Uses **git** (version control) to **track code changes**.<br>
@@ -20,15 +20,17 @@ Opened Git bash and ran :
 ```bash
 git config --global user.name "vishalv22"
 git config --global user.email "my-email"
+
+ #This configures Git with my name and email for commit authorship.
 ```
 This sets up my identity for all Git commits on this system.
 
-- Created a local project folder at ```C:\Users\vishal\Desktop\Codes\Python```
+- Created a local project folder at ```C:\Users\vishal\Desktop\Python```
 - Created a new public repo called **Python** <br>
 - Initialized Git Locally & Linked to GitHub
 In Git Bash, navigated to the folder:
 ```bash
-cs ~/Desktop/Code/Python
+cs ~/Desktop/Python
 git init
 ```
 - this linked it to the GitHub repo:
@@ -39,10 +41,10 @@ git remote add origin http://github.com/vishalv22/python.git
 ## 📤First Push to GitHub
 ```bash
 git add . 
-#Adds all changed to the staging area
+#Adds all changes to the staging area
 
 git commit -m "Intitial commit with folder structure"
-#commits the changes with a message
+#This creates a commit - a snapshot of the current changes with a message.
 
 git push -u origin main
 #pushes commits to the GitHub repo
@@ -53,7 +55,7 @@ This uploads my local files to the GitHub repo.
 - used same steps
 ```bash
 git add .
-git commit -m "some changes"
+git commit -m "message"
 git push
 ```
 
@@ -63,3 +65,17 @@ git push
 git pull
 ```
 
+### 🌿What is git Branch?
+- it is like a copy of our codebase where we can make chnages without affecting the main version.
+- ```main``` (or ```master```)is the dafault branch.
+```bash
+git checkout -b backup-main
+```
+
+- It made a copy of our current project state, named ```backup-main``` and switch to it. 
+- If we made important work in ```backup-main``` and want to bring it to ```main```: <br>
+Switch to ```main``` branch first (```git checkout main```) --> then merge the branch (```git merge backup-main```)
+
+### why use touch?
+```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
+it's just a quick way to create any empty file.
