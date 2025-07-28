@@ -66,7 +66,7 @@ git pull
 ```
 
 ### 🌿What is git Branch?
-- it is like a copy of our codebase where we can make chnages without affecting the main version.
+- it is like a copy of our codebase where we can make changes without affecting the main version.
 - ```main``` (or ```master```)is the dafault branch.
 ```bash
 git checkout -b backup-main
