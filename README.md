@@ -1,6 +1,7 @@
-# GitHub and Git 
+# Git and GitHub 
 
-## 🌐GitHub :
+## <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="25"> GitHub
+
 - A platform for **storing**, **sharing** and **collaborating on code**. <br>
 - Uses **git** (version control) to **track code changes**.<br>
 - Hosts repositories (repo) for our projects.<br>
