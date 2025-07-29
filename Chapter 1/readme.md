@@ -22,6 +22,8 @@ print("Hello")   # This line prints Hello
 
 **Multiline Comments**: Comments spanning multiple lines have """ or ''' on either end.
 ```bash
+"""
 This type of comment spans multiple lines.
 These are mostly used for documentation of functions, classes and modules.
+"""
 ```
