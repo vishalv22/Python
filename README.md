@@ -67,7 +67,7 @@ git pull
 
 ### 🌿What is git Branch?
 - it is like a copy of our codebase where we can make changes without affecting the main version.
-- ```main``` (or ```master```)is the dafault branch.
+- ```main``` (or ```master```) is the dafault branch.
 ```bash
 git checkout -b backup-main
 ```
@@ -76,6 +76,6 @@ git checkout -b backup-main
 - If we made important work in ```backup-main``` and want to bring it to ```main```: <br>
 Switch to ```main``` branch first (```git checkout main```) --> then merge the branch (```git merge backup-main```)
 
-### why use touch?
-```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
+### 💡Using touch command
+- ```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
 it's just a quick way to create any empty file.
