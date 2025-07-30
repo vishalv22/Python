@@ -89,3 +89,44 @@ print("banana" in fruits)                   # Output: True
 text = "I am Vishal"
 print("Ironman" not in text, "but He is")   #Output: True but He is 
 ```
+<br>
+<br>
+
+## 3.2 User-Input
+To get input from the user, we use the ```input``` function
+```bash
+name = input("What is your name? ")
+#Output: What is your name? 
+```
+If user types *Vishal* and hit enter, the variable ```name``` will be assigned to the string ```"Vishal"```
+```bash
+name = input("What is your name? ")
+#Output: What is your name? Vishal
+print(name)
+#Output: Vishal
+```
+
+📌 Note that the input is always of type ```str```, which is important if we want the user to enter numbers. Therefore, we need to convert the ```str``` before trying to use it as a number:
+```bash
+a = int(input("Enter the first Number: "))          # int(), now it will take input from user as a Number. 
+b = int(input("Enter the second Number: "))
+
+print("The sum of both Numbers is: ", a + b)
+```
+another example:
+```bash
+x = input("Write a number:")
+# Out: Write a number: 10
+x / 2
+# Out: TypeError: unsupported operand type(s) for /: 'str' and 'int'
+float(x) / 2
+# Out: 5.0
+```
+
+## 🎯 Exercise 2
+#### 1. Write a python program to add two numbers.
+#### 2. Write a python program to find remainder when a number is divided by 2.
+#### 3. Check the type of Variable assigned using input() function.
+#### 4. Use Comparision Operator to find out whether a given variable is greater than 'b' or not. Take a = 34 and b = 80.
+#### 5. Write a python program to find an average numbers entered by the user.
+#### 6. Write a Python program to calculate the Square of a Number entered by the user.
