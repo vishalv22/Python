@@ -48,3 +48,8 @@ import math
 dir (math) #this will show all the functions available in math module.
 #for example, we can use 'math.pi' to get the value of pi.
 ```
+
+## 🎯 Exercise 1
+#### 1. Python program to print the poem "Twinkle, Twinkle Little Star"
+#### 2. Install the external module and use it to perform an operation of your interest.
+#### 3. Write the python program to print the contents of a directory using the os module. Search online for the function which does that.
