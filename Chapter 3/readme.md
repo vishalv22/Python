@@ -127,6 +127,6 @@ float(x) / 2
 #### 1. Write a python program to add two numbers.
 #### 2. Write a python program to find remainder when a number is divided by 2.
 #### 3. Check the type of Variable assigned using input() function.
-#### 4. Use Comparision Operator to find out whether a given variable is greater than 'b' or not. Take a = 34 and b = 80.
+#### 4. Use Comparision Operator to find out whether a given variable is greater than 'b' or not.
 #### 5. Write a python program to find an average numbers entered by the user.
 #### 6. Write a Python program to calculate the Square of a Number entered by the user.
