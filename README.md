@@ -9,11 +9,11 @@
 - e.g., pushing my Python code to GitHub to share it and back it up.<br>
 - Used by developers for **teamwork** and **opensource projects**.<br><br>
 
-## 🛠️Git :
+## 🛠️ Git :
 - A version control tool.<br>
 - Runs locally in our Computers.
 
-# 📦Setup
+# 📦 Setup
 - Installed Git on Windows<br>
 - Configured Git (Local Identity)<br>
 Opened Git bash and ran :
@@ -38,7 +38,7 @@ git init
 git remote add origin http://github.com/vishalv22/python.git
 ```
 - Loged in and Done
-## 📤First Push to GitHub
+## 📤 First Push to GitHub
 ```bash
 git add . 
 #Adds all changes to the staging area
@@ -51,42 +51,46 @@ git push -u origin main
 ```
 This uploads my local files to the GitHub repo.
 
-## ✏️Edited Files & Pushed Again
-- used same steps
+## ✏️ Edited Files & Push Again
+used same steps
 ```bash
 git add .
 git commit -m "message"
 git push
 ```
 
-## 📥Edited Directly on GitHub & Pulled
-- If I or someone did some changes directly to the GitHub repo (not locally) then we can pull it and keep everything in sync :
+## 📥 Edited Directly on GitHub & Pull
+If I or someone did some changes directly to the GitHub repo (not locally) then we can pull it and keep everything in sync :
 ```bash
 git pull
 ```
+<br>
 
-### 🌿What is git Branch?
+## 🌿 What is git Branch?
 - it is like a copy of our codebase where we can make changes without affecting the main version.
 - ```main``` (or ```master```) is the dafault branch.
 ```bash
 git checkout -b backup-main
 ```
+<br>
 
 - It made a copy of our current project state, named ```backup-main``` and switch to it. 
 - If we made important work in ```backup-main``` and want to bring it to ```main```: <br>
 Switch to ```main``` branch first (```git checkout main```) --> then merge the branch (```git merge backup-main```)
+<br>
 
-### 💡Using touch command
-- ```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
+## 🫴🏻 Using touch command
+```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
 it's just a quick way to create any empty file.
+<br>
 
-### Edit last commit message
+## ✏️ Edit last commit message
 To edit last commit message, Run:
 ```bash
 git commit --amend
 ```
 Change message and save.
-Then forse push the updated commit to GitHub:
+Then force push the updated commit to GitHub:
 ```bash
 git push --force
 ```
