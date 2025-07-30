@@ -29,7 +29,7 @@ These are mostly used for documentation of functions, classes and modules.
 ```
 ## 1.2 Modules in Python:
 Modules allow us to avoid writing everything from scratch by reusing existing, reliable code.
-first install module using terminal, ```pip install pyjokes``` and then import it.
+eg- first install module using terminal, ```pip install pyjokes``` and then import it.
 ```bash
 import pyjokes
 joke = pyjokes.get_joke()
