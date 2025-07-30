@@ -79,3 +79,14 @@ Switch to ```main``` branch first (```git checkout main```) --> then merge the b
 ### 💡Using touch command
 - ```touch``` simply used to creat a new, empty file in the current folder, example ```touch hello.py``` or ```touch readme.md``` <br>
 it's just a quick way to create any empty file.
+
+### Edit last commit message
+To edit last commit message, Run:
+```bash
+git commit --amend
+```
+Change message and save.
+Then forse push the updated commit to GitHub:
+```bash
+git push --force
+```
