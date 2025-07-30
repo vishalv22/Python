@@ -51,7 +51,7 @@ print("True or True is :", True or True)
 print("False or True is :", False or True)
 print("False or False is :", False or False)
 
-print("____________________d")
+print("____________________")
 
 # Truth table of 'and' (returns False if any one is False)
 print("True and False is :", True and False)
@@ -59,13 +59,25 @@ print("True and True is :", True and True)
 print("False and True is :", False and True)
 print("False and False is :", False and False)
 
-print("____________________e")
+print("____________________")
 
 # 'not' operator reverses the boolean value
 print(not(True))   # Output: False
 print(not(False))  # Output: True
 
 
+print("=== Identity Operators ===")
 # Identity Operators: is, is not
+a = 9
+b = 9
+print(a is b)
+print(a is not b)
 
+
+print("=== Membership Operators ===")
 # Membership Operators: in, not in
+fruits = ["apple", "banana", "mango"]
+print("banana" in fruits)
+
+text = "My name is Vishal"
+print("Ironman" not in text, "but he is")
