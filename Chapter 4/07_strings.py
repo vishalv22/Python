@@ -29,14 +29,14 @@ print(full_name[0:])
 name = "Namya"
 
 print(name[-4:-1])
-
-#OR print(name[1:4])
+# OR
+# print(name[1:4])     # Output: amy
 
 
 
 # Slicing with skip Value 
 a = "0123456789"
-print(a[0:8:2])       #this means, 0 se 7th tak and then uska 2nd-2nd characters..  result: 0246
+print(a[0:8:2])            # This means, 0 se 7th tak and then uska 2nd-2nd characters..  Output: 0246
 
 word = "amazing"
-print(word[1: 6: 2])       #result : mzn
+print(word[1: 6: 2])       # Output: mzn
