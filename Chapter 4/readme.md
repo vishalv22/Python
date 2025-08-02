@@ -18,8 +18,5 @@ String slicing lets us “cut” and “pick” parts of a string the way we wan
 
 → Negative indexing (right to left) : here -1 refers to the last character, -2 to the second last, and so on. (..., -3, -2, -1)
 <p align="center">
-<img src="https://github.com/user-attachments/assets/972d142b-acdf-4ccf-ab9d-f2069677017f" alt="Image" width="400">
+<img src="https://github.com/user-attachments/assets/2e62ed3c-cdf2-4881-89c7-13dd156a09e6" alt="Image" width="500">
 </p>
-
-
-
