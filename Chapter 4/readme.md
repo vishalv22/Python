@@ -51,6 +51,7 @@ print(a[0:8:2])     # Output: 0246
 word = "amazing"
 print(word[1:6:2])  # Output: mzn
 ```
+<br>
 
 ### ⪼ Reversing an Object
 We can use slices to very easily reverse a str, list, or tuple. <br>
@@ -60,6 +61,8 @@ word = 'reverse me!'
 print(word[::-1])   # Output: !em esrever
 ```
 The syntax [::-1] means that the slice should be from the beginning until the end of the string (because start and end are commited) and a step of -1 means that it should move through the string in reverse.
+
+<br>
 
 ## 4.2 String Functions
 String Functions are built-in method in Python used to perform operations or manipulate string data. <br>
