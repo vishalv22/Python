@@ -68,49 +68,49 @@ The syntax [::-1] means that the slice should be from the beginning until the en
 String Functions are built-in method in Python used to perform operations or manipulate string data. <br>
 
 
-```len()``` Function: Returns the length of the String.
+- ```len()``` Function: Returns the length of the String.
 ```bash
 name = "Vishal"
 print(len(name))                   # Output: 6
 ```
-```.endswith()``` : Check if string ends with given value.
+- ```.endswith()``` : Check if string ends with given value.
 ```bash
 name = "Vishal"
 print(name.endswith("hal"))        # Output: True
 ```
-```.startswith()``` : Check if string starts with given value.
+- ```.startswith()``` : Check if string starts with given value.
 ```bash
 print(name.startswith("vish"))      # Output: False  (Case-sensitive)
 ```
-```.count()``` : Count how many times a substring appears.
+- ```.count()``` : Count how many times a substring appears.
 ```bash
 print(name.count("a"))              # Output: 1
 ```
-```.capitalize()``` : Capitalize the first letter of String.
+- ```.capitalize()``` : Capitalize the first letter of String.
 ```bash
 capp = "he is a good boy"
 print(capp.capitalize())            # Output: He is a good boy
 ```
-```.find()``` : Find index of first match, -1 if not found.
+- ```.find()``` : Find index of first match, -1 if not found.
 ```bash
 print(capp.find("good"))            # Output: 8
 ```
-```.replace()``` : Replace one substring with another.
+- ```.replace()``` : Replace one substring with another.
 ```bash
 print(capp.replace("is" , "was"))   # Output: he was a good boy
 ```
-```.strip()``` : Remove space from start and end
+- ```.strip()``` : Remove space from start and end
 ```bash
 a = " Hello "
 print(a.strip())           # Output: Hello
 ```
-```.split()``` : Splits string into a list
+- ```.split()``` : Splits string into a list
 ```bash
 x = "He is playing Football"
 print(x.split())           # Default splits by space
                            # Output:   ['He', 'is', 'playing', 'Football']
 ```
-```.join()``` : Join list into a single String
+- ```.join()``` : Join list into a single String
 ```bash
 words = ['He', 'is', 'playing', 'Football']
 print(' '.join(words))     # Output: He is playing Football   (join with the " " (space))
