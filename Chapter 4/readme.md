@@ -80,10 +80,12 @@ print(name.endswith("hal"))        # Output: True
 ```
 - ```.startswith()``` : Check if string starts with given value.
 ```bash
+name = "Vishal"
 print(name.startswith("vish"))      # Output: False  (Case-sensitive)
 ```
 - ```.count()``` : Count how many times a substring appears.
 ```bash
+name = "Vishal"
 print(name.count("a"))              # Output: 1
 ```
 - ```.capitalize()``` : Capitalize the first letter of String.
@@ -93,10 +95,12 @@ print(capp.capitalize())            # Output: He is a good boy
 ```
 - ```.find()``` : Find index of first match, -1 if not found.
 ```bash
+capp = "he is a good boy"
 print(capp.find("good"))            # Output: 8
 ```
 - ```.replace()``` : Replace one substring with another.
 ```bash
+capp = "he is a good boy"
 print(capp.replace("is" , "was"))   # Output: he was a good boy
 ```
 - ```.strip()``` : Remove space from start and end
