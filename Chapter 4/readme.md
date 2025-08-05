@@ -1,6 +1,5 @@
 # 📝Chapter 4
-## 4.1 String Datatype
-String is a DataType in Pyhton.<br>
+## 4.1 Strings
 String is a sequence of characters enclosed in quotes, we can primarily write a string in these three ways:
 ```bash
 name = "Vishal"     # 1. Single quoted String
@@ -9,7 +8,7 @@ b = '''World'''     # 3. Tripple quoted String
 ```
 
 
-### ⪼ String Slicing:
+### ⪼ String Slicing :
 String slicing lets us “cut” and “pick” parts of a string the way we want.<br>
 Format for Slicing:
 ```bash
@@ -41,7 +40,7 @@ a[3:]    # 'def' (from index 3, to end(defaults to size of iterable))
 a[:4]    # 'abcd' (from beginning (default 0) to position 4(excluded))
 a[2:4]   # 'cd' (form position 2, to position 4(excluded))
 ```
-### ⪼ String Slicing with Skip value:
+### ⪼ String Slicing with Skip value :
 We can provide a skip value as a part of our slice. <br>
 for example:
 ```bash
@@ -53,7 +52,7 @@ print(word[1:6:2])  # Output: mzn
 ```
 <br>
 
-### ⪼ Reversing an Object
+### ⪼ Reversing an Object :
 We can use slices to very easily reverse a str, list, or tuple. <br>
 for example:
 ```bash
