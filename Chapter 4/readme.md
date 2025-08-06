@@ -120,16 +120,16 @@ print(' '.join(words))     # Output: He is playing Football   (join with the " "
 ```
 
 ## 4.3 Escape Sequences
-Escape sequences are special characters used to represent certain whitespace characters or characters that are hard to type directly into a string. They start with a backslash (\), followed by a character that represents something else.
+Escape sequences are special characters used to represent certain whitespace characters or characters that are hard to type directly into a string. They start with a backslash (```\```), followed by a character that represents something else.
 ### Common Escape Sequences
-```\n``` ⟶ New line
-```\t``` ⟶ Tab (Horizontal)
-```\\``` ⟶ Backslash
-```\'``` ⟶ Single quote 
-```\"``` ⟶ Double quote 
-```\r``` ⟶ Carriage return 
-```\b``` ⟶ Backspace 
-```\a``` ⟶ Bell / Alert sound
+```\n``` ⟶ New line <br>
+```\t``` ⟶ Tab (Horizontal) <br>
+```\\``` ⟶ Backslash <br>
+```\'``` ⟶ Single quote <br>
+```\"``` ⟶ Double quote <br>
+```\r``` ⟶ Carriage return <br>
+```\b``` ⟶ Backspace <br>
+```\a``` ⟶ Bell / Alert sound <br>
 
 Escape sequences only work in Strings.
 
