@@ -119,4 +119,17 @@ words = ['He', 'is', 'playing', 'Football']
 print(' '.join(words))     # Output: He is playing Football   (join with the " " (space))
 ```
 
+## 4.3 Escape Sequences
+Escape sequences are special characters used to represent certain whitespace characters or characters that are hard to type directly into a string. They start with a backslash (\), followed by a character that represents something else.
+### Common Escape Sequences
+```\n``` ⟶ New line
+```\t``` ⟶ Tab (Horizontal)
+```\\``` ⟶ Backslash
+```\'``` ⟶ Single quote 
+```\"``` ⟶ Double quote 
+```\r``` ⟶ Carriage return 
+```\b``` ⟶ Backspace 
+```\a``` ⟶ Bell / Alert sound
+
+Escape sequences only work in Strings.
 
