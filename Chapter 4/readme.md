@@ -133,6 +133,7 @@ Escape sequences are special characters used to represent certain whitespace cha
 
 Escape sequences only work in Strings.
 
+<br>
 
 ## 🎯 Exercise 3
 #### 1. Write a python program to display a User entered name followed by Good Afternoon using input() function.
