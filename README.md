@@ -84,7 +84,9 @@ Switch to ```main``` branch first (```git checkout main```) --> then merge the b
 it's just a quick way to create any empty file.
 <br>
 
-## ✏️ Edit last commit message
+## ✏️ Editing and Rewriting Commits in Git
+
+### Edit last commit message
 To edit last commit message, Run:
 ```bash
 git commit --amend
@@ -94,3 +96,25 @@ Then force push the updated commit to GitHub:
 ```bash
 git push --force
 ```
+### Rewriting Entire Commit History
+We can squash, edit, or reorder all commits starting from the root commit by using interactive rebase with ```--root```. <br>
+Useful for cleaning up commit history before sharing the repo.
+<br>
+
+Example :
+
+```bash
+git rebase -i --root
+```
+- Replace ```pick``` with ```squash``` or ```edit``` for each commit as needed.
+- Save and follow Git's prompts.
+
+### Git Commit on Past Dates
+We can set the commit date manually using the ```--date``` flag. Useful for adding missed commits with the correct timeline.
+<br>
+Example :
+
+```bash
+git commit --date='2025-08-08' -m "message"
+```
+
