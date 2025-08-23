@@ -14,7 +14,7 @@ my_list = ["Apple", "Orange", 10, 456.89, True, "Vishal"]
 ## 5.2 Accessing Elements in a List
 We can access items in a list using indexing and slicing.
 #### 👉 Indexing :
-Index starts from 0 (first element)
+Index starts from 0 (first element)<br>
 Negative index starts from the end (-1 is last element)
 
 ```bash
@@ -37,8 +37,8 @@ print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 ```
 
 ## 5.3 Mutability of List :
-A list is mutable, which means we can change its element after creation.
-In contrast, string are immutable (cannot be changed once created).
+A list is mutable, which means we can change its element after creation. <br>
+In contrast, string are immutable (cannot be changed once created).<br>
 
 Example on changing list item:
 ```bash
@@ -64,6 +64,7 @@ print(name) # Output: vishal
 <br>
 <hr>
 <br>
+
 ✅ Key point:
 - Lists → mutable (can modify)
 - Strings, tuples → immutable (cannot modify)
