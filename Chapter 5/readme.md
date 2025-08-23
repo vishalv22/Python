@@ -24,17 +24,47 @@ print(fruits[0])        # apple
 print(fruits[-1])       # guava
 print(fruits[2])        # banana
 ```
-#### 👉 Slicing
+#### 👉 Slicing :
 We can get a part (sub-list) using slicing (we already saw in string these in string slicign):
 ```bash
 cars = ["audi", "bmw", "lamborghini", "mercedes", "jaguar", "buggati", "skoda"]
-
 
 # format : cars[start:stop:step]
 print(cars[:::])       # ['audi', 'bmw', 'lamborghini', 'mercedes', 'jaguar', 'buggati', 'skoda']
 print(cars[:3])        # ['audi', 'bmw', 'lamborghini']
 print(cars[::-1])      # Reverse the list : ['skoda', 'buggati', 'jaguar', 'mercedes', 'lamborghini', 'bmw', 'audi']
-
 print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 ```
+
+## 5.3 Mutability of List :
+A list is mutable, which means we can change its element after creation.
+In contrast, string are immutable (cannot be changed once created).
+
+Example on changing list item:
+```bash
+cars = ["audi", "bmw", "lamborghini"]
+
+# changing the second element
+cars[1] = "mercedes"
+
+print(cars)
+
+# Output: ['audi', 'mercedes', 'lamborghini'] 
+```
+
+Example that string are mutable: 
+```bash
+name = "vishal"
+
+# we can't do -
+# name[0] = "Ironman"
+
+print(name) # Output: vishal
+```
+<br>
+<hr>
+<br>
+✅ Key point:
+- Lists → mutable (can modify)
+- Strings, tuples → immutable (cannot modify)
 
