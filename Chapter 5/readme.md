@@ -14,8 +14,8 @@ my_list = ["Apple", "Orange", 10, 456.89, True, "Vishal"]
 ## 5.2 Accessing Elements in a List
 We can access items in a list using indexing and slicing.
 #### 👉 Indexing :
-Index starts from ```0``` (first element)<br>
-Negative index starts from the end (```-1``` is last element)
+- Index starts from ```0``` (first element) 
+- Negative index starts from the end (```-1``` is last element)
 
 ```bash
 fruits = ["apple", "orange", "banana", "grapes", "guava"]
@@ -37,8 +37,8 @@ print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 ```
 
 ## 5.3 Mutability of List :
-A list is mutable, which means we can change its element after creation. <br>
-In contrast, string are immutable (cannot be changed once created).<br>
+- A list is mutable, which means we can change its element after creation. 
+- In contrast, string are immutable (cannot be changed once created). 
 
 Example on changing list item:
 ```bash
@@ -62,7 +62,6 @@ name = "vishal"
 print(name) # Output: vishal
 ```
 <br>
-<hr>
 <br>
 
 📋 Note :
@@ -70,7 +69,7 @@ print(name) # Output: vishal
 - Strings, tuples → immutable (cannot modify)
 
 
-## 5.4 Adding / Removing Elements to a List
+## 5.4 Adding or Removing elements to a List
 Python provides different ways to add new items to a list.
 #### 👉 ```append()``` – Add at the End
 ```bash 
@@ -132,3 +131,43 @@ print(numbers)       # Output: []
 
 - We use ```remove()``` when we know the value, ```pop()``` when we know the index, and ```clear()``` when we want an empty list.
 
+## 5.5 Useful functions with Lists 
+#### 👉 len() - Length of List
+```bash
+fruits = ["banana", "orange", "papaya", "mango"]
+print(len(fruits))           # Output: 4
+```
+#### 👉 min() and max() - Smallest & Largest Value
+```bash
+# Example 1 :
+numbers = [40, 25, 10, 256]
+print(min(numbers))          # Output: 10
+print(max(numbers))          # Output: 256
+```
+```min()``` and ```max()``` compare strings based on Unicode values of characters.
+```bash
+# Example 2 :
+fruits = ["apple", "banana", "mango", "cherry"]
+print(min(fruits))           # Output: apple        a → Unicode 97
+print(max(fruits))           # Output: mango        m → Unicode 109
+
+# Example 3 :
+word = "hello"
+print(min(word))  # 'e'  (smallest character by Unicode value)
+print(max(word))  # 'o'  (largest character)
+```
+
+#### 👉 sum() - Sum of All Elements
+```bash
+# (only works with numbers)
+
+numbers = [40, 25, 10, 256]
+print(sum(numbers))          # Output: 326
+```
+#### 👉 in - Check if Elements Exists
+```bash
+fruits = ['apple', 'banana', 'guava', 'pineapple', 'grapes']
+print("apple" in fruits)     # Output: True
+print("manago" in fruits)    # Output: False
+
+```
