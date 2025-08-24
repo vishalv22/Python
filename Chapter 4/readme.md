@@ -1,7 +1,7 @@
 # 📝Chapter 4
 ## 4.1 Strings
 String is a sequence of characters enclosed in quotes, we can primarily write a string in these three ways:
-```bash
+```python
 name = "Vishal"     # 1. Single quoted String
 a = 'Hello'         # 2. Double quoted String
 b = '''World'''     # 3. Tripple quoted String
@@ -11,7 +11,7 @@ b = '''World'''     # 3. Tripple quoted String
 ### ⪼ String Slicing :
 String slicing lets us “cut” and “pick” parts of a string the way we want.<br>
 Format for Slicing:
-```bash
+```python
 print(text[start : stop : step])
 
 # start = where to *start* (index)
@@ -29,7 +29,7 @@ print(text[start : stop : step])
 </p>
 
 Some examples: 
-```bash
+```python
 a = "abcdef"
 a        # 'abcdef'
          # Same as a[:] or a[::] since it uses the defaults for all three indices   
@@ -43,7 +43,7 @@ a[2:4]   # 'cd' (form position 2, to position 4(excluded))
 ### ⪼ String Slicing with Skip value :
 We can provide a skip value as a part of our slice. <br>
 for example:
-```bash
+```python
 a = "0123456789"
 print(a[0:8:2])     # Output: 0246
 
@@ -55,7 +55,7 @@ print(word[1:6:2])  # Output: mzn
 ### ⪼ Reversing an Object :
 We can use slices to very easily reverse a str, list, or tuple. <br>
 for example:
-```bash
+```python
 word = 'reverse me!'
 print(word[::-1])   # Output: !em esrever
 ```
@@ -68,53 +68,53 @@ String Functions are built-in method in Python used to perform operations or man
 
 
 - ```len()``` Function: Returns the length of the String.
-```bash
+```python
 name = "Vishal"
 print(len(name))                   # Output: 6
 ```
 - ```.endswith()``` : Check if string ends with given value.
-```bash
+```python
 name = "Vishal"
 print(name.endswith("hal"))        # Output: True
 ```
 - ```.startswith()``` : Check if string starts with given value.
-```bash
+```python
 name = "Vishal"
 print(name.startswith("vish"))      # Output: False  (Case-sensitive)
 ```
 - ```.count()``` : Count how many times a substring appears.
-```bash
+```python
 name = "Vishal"
 print(name.count("a"))              # Output: 1
 ```
 - ```.capitalize()``` : Capitalize the first letter of String.
-```bash
+```python
 capp = "he is a good boy"
 print(capp.capitalize())            # Output: He is a good boy
 ```
 - ```.find()``` : Find index of first match, -1 if not found.
-```bash
+```python
 capp = "he is a good boy"
 print(capp.find("good"))            # Output: 8
 ```
 - ```.replace()``` : Replace one substring with another.
-```bash
+```python
 capp = "he is a good boy"
 print(capp.replace("is" , "was"))   # Output: he was a good boy
 ```
 - ```.strip()``` : Remove space from start and end
-```bash
+```python
 a = " Hello "
 print(a.strip())           # Output: Hello
 ```
 - ```.split()``` : Splits string into a list
-```bash
+```python
 x = "He is playing Football"
 print(x.split())           # Default splits by space
                            # Output:   ['He', 'is', 'playing', 'Football']
 ```
 - ```.join()``` : Join list into a single String
-```bash
+```python
 words = ['He', 'is', 'playing', 'Football']
 print(' '.join(words))     # Output: He is playing Football   (join with the " " (space))
 ```
@@ -138,7 +138,7 @@ Escape sequences only work in Strings.
 ## 🎯 Exercise 3
 #### 1. Write a python program to display a User entered name followed by Good Afternoon using input() function.
 #### 2. Write a program to fill in a letter template given below with name and date.
-```bash
+```python
 letter = '''
 Dear <|name|>, 
 You are selected! 
@@ -148,6 +148,6 @@ You are selected!
 #### 3. Write a program to detect double space in a string.
 #### 4. Replace the double space from 'question 3' with single spaces.
 #### 5. Write a program to format the following letter using escape sequence characters.
-```bash
+```python
 letter = "Dear Harry, this python course is nice. Thanks!"
 ```

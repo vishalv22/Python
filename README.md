@@ -135,8 +135,8 @@ git commit --date='2025-08-08' -m "message"
   ord('क')   # 2325
   ```
   
-And we can convert a Unicode number back to a character with:
-```bash
-chr(65)    # 'A'
-chr(2325)  # 'क'
-```
+- And we can convert a Unicode number back to a character with:
+  ```bash
+  chr(65)    # 'A'
+  chr(2325)  # 'क'
+  ```
