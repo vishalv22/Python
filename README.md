@@ -118,3 +118,25 @@ Example :
 git commit --date='2025-08-08' -m "message"
 ```
 
+## Unicode?
+
+- **Unicode** is a standard that assigns a unique number (called *code point*) to every character in every language and symbol set.  
+  - Example: `'A' → 65`, `'a' → 97`, `'क' → 2325`.
+
+- In Python, characters are compared based on their **Unicode code points**, not the "dictionary order" we use in daily life.  
+  - `'A' < 'a'` because 65 < 97.  
+
+- Functions like `min()`, `max()`, and sorting use these numeric values to compare strings.  
+
+- We can find the Unicode value of a character using:  
+  ```bash
+  ord('A')   # 65
+  ord('a')   # 97
+  ord('क')   # 2325
+  ```
+  
+And we can convert a Unicode number back to a character with:
+```bash
+chr(65)    # 'A'
+chr(2325)  # 'क'
+```

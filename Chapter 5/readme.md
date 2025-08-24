@@ -144,7 +144,7 @@ numbers = [40, 25, 10, 256]
 print(min(numbers))          # Output: 10
 print(max(numbers))          # Output: 256
 ```
-```min()``` and ```max()``` compare strings based on Unicode values of characters.
+```min()``` and ```max()``` compare strings based on [Unicode values](../README.md#unicode) of characters.
 ```bash
 # Example 2 :
 fruits = ["apple", "banana", "mango", "cherry"]
