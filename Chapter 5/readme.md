@@ -4,12 +4,13 @@
 - It can hold different data types (integers, strings, float, etc.).
 - Lists are ordered, changable (mutable), and allow duplicate values. 
 - It is written inside square brackets ```[]```.
-<br>
+
 Example:
 
 ```python
 my_list = ["Apple", "Orange", 10, 456.89, True, "Vishal"]
 ```
+<br>
 
 ## 5.2 Accessing Elements in a List
 We can access items in a list using indexing and slicing.
@@ -35,6 +36,7 @@ print(cars[:3])        # ['audi', 'bmw', 'lamborghini']
 print(cars[::-1])      # Reverse the list : ['skoda', 'buggati', 'jaguar', 'mercedes', 'lamborghini', 'bmw', 'audi']
 print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 ```
+<br>
 
 ## 5.3 Mutability of List :
 - A list is mutable, which means we can change its element after creation. 
@@ -62,12 +64,12 @@ name = "vishal"
 print(name) # Output: vishal
 ```
 <br>
-<br>
 
 📋 Note :
 - Lists → mutable (can modify)
 - Strings, tuples → immutable (cannot modify)
 
+<br>
 
 ## 5.4 Adding or Removing elements to a List
 Python provides different ways to add new items to a list.
@@ -84,7 +86,7 @@ print(fruits)         # Output: ['apple', 'banana', 'mango']
 cars = ["audi", "bmw", "mercedes"]
 cars.insert(1, "jaguar")
 
-print(cars)           # Output: ['audi', 'jaguar', 'bmw', 'mercedes']
+print(cars)     # Output: ['audi', 'jaguar', 'bmw', 'mercedes']
 ```
 
 #### 👉 ```extend()``` – Add Multiple Elements
@@ -123,13 +125,13 @@ number.clear()
 print(numbers)       # Output: []
 ```
 <br>
-<br>
 
 📋 Summary :
 - We use ```append()``` for single items, ```extend()``` for multiple, and ```insert()``` when we need control over the position.
 
 
 - We use ```remove()``` when we know the value, ```pop()``` when we know the index, and ```clear()``` when we want an empty list.
+<br>
 
 ## 5.5 Useful functions with Lists 
 #### 👉 len() - Length of List
