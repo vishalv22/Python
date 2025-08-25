@@ -157,14 +157,14 @@ print(min(word))  # 'e'  (smallest character by Unicode value)
 print(max(word))  # 'o'  (largest character)
 ```
 
-#### 👉 sum() - Sum of All Elements
+#### 👉 ```sum()``` - Sum of All Elements
 ```python
 # (only works with numbers)
 
 numbers = [40, 25, 10, 256]
 print(sum(numbers))          # Output: 326
 ```
-#### 👉 in - Check if Elements Exists
+#### 👉 ```in``` - Check if Elements Exists
 ```python
 fruits = ['apple', 'banana', 'guava', 'pineapple', 'grapes']
 print("apple" in fruits)     # Output: True
