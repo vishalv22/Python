@@ -31,7 +31,7 @@ We can get a part (sub-list) using slicing (we already saw these in string slici
 cars = ["audi", "bmw", "lamborghini", "mercedes", "jaguar", "buggati", "skoda"]
 
 # format : cars[start:stop:step]
-print(cars[:::])       # ['audi', 'bmw', 'lamborghini', 'mercedes', 'jaguar', 'buggati', 'skoda']
+print(cars[::])       # ['audi', 'bmw', 'lamborghini', 'mercedes', 'jaguar', 'buggati', 'skoda']
 print(cars[:3])        # ['audi', 'bmw', 'lamborghini']
 print(cars[::-1])      # Reverse the list : ['skoda', 'buggati', 'jaguar', 'mercedes', 'lamborghini', 'bmw', 'audi']
 print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
@@ -40,7 +40,7 @@ print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 
 ## 5.3 Mutability of List :
 - A list is mutable, which means we can change its element after creation. 
-- In contrast, string are immutable (cannot be changed once created). 
+- In contrast, strings are immutable (cannot be changed once created). 
 
 Example on changing list item:
 ```python
@@ -54,7 +54,7 @@ print(cars)
 # Output: ['audi', 'mercedes', 'lamborghini'] 
 ```
 
-Example that string are mutable: 
+Example that strings are immutable: 
 ```python
 name = "vishal"
 
@@ -124,7 +124,7 @@ print(cars)          # Output: ['audi', 'mercedes']
 #### 👉 ```clear()``` – Remove All Elements
 ```python
 numbers = [1, 2, 3, 4]
-number.clear()
+numbers.clear()
 
 print(numbers)       # Output: []
 ```
@@ -143,7 +143,7 @@ print(numbers)       # Output: []
 ```python
 fruits = ["apple", "banana", "mango", "apple"]
 
-print(fruit.index("apple"))       # Output: 0          (means at first position)
+print(fruits.index("apple"))       # Output: 0          (means at first position)
 print(fruits.index("mango"))      # Output: 2          (third position)
 
 ```
@@ -160,16 +160,18 @@ print(name.count("vishal"))       # Output: 2
 numbers = [5, 2, 9, 1]
 
 numbers.sort()
-print(numbers)      # [1, 2, 5, 9]          # by default → accending order 
+print(numbers)       # [1, 2, 5, 9]         # by default → ascending order 
 
-print(numbers.short(reverse = True))        # for decending order
+numbers.sort(reverse = True)
+print(numbers)       # [9, 5, 2, 1]         # for descending order
 ```
 
 #### 👉 reverse() - Reverse order of elements
 ```python
 numbers = [1, 2, 3, 4, 5]
 
-print(number.reverse())         # [5, 4, 3, 2, 1]
+numbers.reverse()
+print(numbers)            # [5, 4, 3, 2, 1]     
 ```
 
 
@@ -210,6 +212,6 @@ print(sum(numbers))          # Output: 326
 ```python
 fruits = ['apple', 'banana', 'guava', 'pineapple', 'grapes']
 print("apple" in fruits)     # Output: True
-print("manago" in fruits)    # Output: False
+print("mango" in fruits)    # Output: False
 
 ```
