@@ -71,8 +71,12 @@ print(name) # Output: vishal
 
 <br>
 
-## 5.4 Adding or Removing elements to a List
-Python provides different ways to add new items to a list.
+
+
+## 5.4 Useful functions with Lists 
+
+### Adding or Removing elements to a List :
+Python provides different ways to ADD new items to a list.
 #### 👉 ```append()``` – Add at the End
 ```python 
 fruits = ["apple", "banana"]
@@ -99,7 +103,7 @@ print(numbers)       # Output: [1, 2, 3, 4, 5, 6]
 <br>
 <br>
 
-We can remove elements from a list in different ways:
+We can REMOVE elements from a list in different ways:
 #### 👉 ```remove()``` – Remove by Value
 ```python 
 fruits = ["apple", "banana", "mango", "banana"]
@@ -133,7 +137,43 @@ print(numbers)       # Output: []
 - We use ```remove()``` when we know the value, ```pop()``` when we know the index, and ```clear()``` when we want an empty list.
 <br>
 
-## 5.5 Useful functions with Lists 
+
+### Searching in a List :
+#### 👉 index() - Find position of element
+```python
+fruits = ["apple", "banana", "mango", "apple"]
+
+print(fruit.index("apple"))       # Output: 0          (means at first position)
+print(fruits.index("mango"))      # Output: 2          (third position)
+
+```
+
+#### 👉 count() - Count occurrences
+```python
+name = ["vishal", "rohan", "shayam", "vishal", "ironman"]
+print(name.count("vishal"))       # Output: 2
+```
+
+### Ordering a List :
+#### 👉 sort() - sort elements (accending by default)
+```python
+numbers = [5, 2, 9, 1]
+
+numbers.sort()
+print(numbers)      # [1, 2, 5, 9]          # by default → accending order 
+
+print(numbers.short(reverse = True))        # for decending order
+```
+
+#### 👉 reverse() - Reverse order of elements
+```python
+numbers = [1, 2, 3, 4, 5]
+
+print(number.reverse())         # [5, 4, 3, 2, 1]
+```
+
+
+### More Useful Functions :
 #### 👉 len() - Length of List
 ```python
 fruits = ["banana", "orange", "papaya", "mango"]
