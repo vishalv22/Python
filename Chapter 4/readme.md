@@ -2,9 +2,9 @@
 ## 4.1 Strings
 String is a sequence of characters enclosed in quotes, we can primarily write a string in these three ways:
 ```python
-name = "Vishal"     # 1. Single quoted String
-a = 'Hello'         # 2. Double quoted String
-b = '''World'''     # 3. Tripple quoted String
+name = "Vishal"     # 1. Double quoted String
+a = 'Hello'         # 2. Single quoted String
+b = '''World'''     # 3. Triple quoted String (multi-line also possible)
 ```
 
 
@@ -38,7 +38,7 @@ a[:]     # 'abcdef'
 a[::]    # 'abcdef'
 a[3:]    # 'def' (from index 3, to end(defaults to size of iterable))
 a[:4]    # 'abcd' (from beginning (default 0) to position 4(excluded))
-a[2:4]   # 'cd' (form position 2, to position 4(excluded))
+a[2:4]   # 'cd' (from position 2, to position 4(excluded))
 ```
 ### ⪼ String Slicing with Skip value :
 We can provide a skip value as a part of our slice. <br>
@@ -59,7 +59,7 @@ for example:
 word = 'reverse me!'
 print(word[::-1])   # Output: !em esrever
 ```
-The syntax [::-1] means that the slice should be from the beginning until the end of the string (because start and end are commited) and a step of -1 means that it should move through the string in reverse.
+The syntax [::-1] means that the slice should be from the beginning until the end of the string (because start and end are ommitted) and a step of -1 means that it should move through the string in reverse.
 
 <br>
 
