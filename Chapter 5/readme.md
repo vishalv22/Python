@@ -2,7 +2,7 @@
 ## 5.1 List 📋
 - A list is a collection of items stored in a single variable. 
 - It can hold different data types (integers, strings, float, etc.).
-- Lists are ordered, changable (mutable), and allow duplicate values. 
+- Lists are ordered, changeable (mutable), and allow duplicate values. 
 - It is written inside square brackets ```[]```.
 
 Example:
@@ -28,12 +28,12 @@ print(fruits[2])        # banana
 #### 👉 Slicing :
 We can get a part (sub-list) using slicing (we already saw these in string slicing):
 ```python
-cars = ["audi", "bmw", "lamborghini", "mercedes", "jaguar", "buggati", "skoda"]
+cars = ["audi", "bmw", "lamborghini", "mercedes", "jaguar", "bugatti", "skoda"]
 
 # format : cars[start:stop:step]
-print(cars[::])       # ['audi', 'bmw', 'lamborghini', 'mercedes', 'jaguar', 'buggati', 'skoda']
+print(cars[::])       # ['audi', 'bmw', 'lamborghini', 'mercedes', 'jaguar', 'bugatti', 'skoda']
 print(cars[:3])        # ['audi', 'bmw', 'lamborghini']
-print(cars[::-1])      # Reverse the list : ['skoda', 'buggati', 'jaguar', 'mercedes', 'lamborghini', 'bmw', 'audi']
+print(cars[::-1])      # Reverse the list : ['skoda', 'bugatti', 'jaguar', 'mercedes', 'lamborghini', 'bmw', 'audi']
 print(cars[1:4])       # ['bmw', 'lamborghini', 'mercedes']
 ```
 <br>
@@ -155,7 +155,7 @@ print(name.count("vishal"))       # Output: 2
 ```
 
 ### Ordering a List :
-#### 👉 sort() - sort elements (accending by default)
+#### 👉 sort() - sort elements (ascending by default)
 ```python
 numbers = [5, 2, 9, 1]
 
