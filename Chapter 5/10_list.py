@@ -9,5 +9,3 @@ print(name[1])   # Orange
 # if we do this, it will replace Orange → Grapes
 name[1] = "Grapes"
 print(name[1])  # Grapes
-
-
