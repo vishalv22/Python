@@ -206,7 +206,7 @@ print(max(word))  # 'o'  (largest character)
 # (only works with numbers)
 
 numbers = [40, 25, 10, 256]
-print(sum(numbers))          # Output: 326
+print(sum(numbers))          # Output: 331
 ```
 #### 👉 ```in``` - Check if Elements Exists
 ```python
