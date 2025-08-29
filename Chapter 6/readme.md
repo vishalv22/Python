@@ -12,6 +12,7 @@ print(type(var))      # Output : <class 'tuple'>
 ```
 
 ## 6.2 Tuple Creation
+both ways are correct, ```t = 1, 3, 6``` or ```t = (1, 3, 6)```; ```()``` is optional
 ```python
 # Tuple with round brackets ()
 numbers = (1, 2, 3, 4, 5)
@@ -23,7 +24,7 @@ var = ("Vishal", 20, False, 49.55)
 var1 = (49,)
 
 # Tuple without brackets (packing)
-p = 10, ""Vishal"", 40
+p = 10, "Vishal", 40
 ```
 
 <br>
